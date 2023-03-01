@@ -16,7 +16,7 @@
 	"forwardPorts": [7007],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "cd my-backstage-app && echo 'Wait for the `yarn install` command to finish' && yarn install",
+	"postCreateCommand": "cd my-backstage-app && echo 'Wait for the `yarn install` command to finish' && yarn install"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
