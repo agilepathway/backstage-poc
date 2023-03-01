@@ -11,10 +11,12 @@
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// This can be used to network with other containers or with the host.
-	// "forwardPorts": [3000, 5432],
+	// We use port 7007 for the Backstage backend app. This port was not always auto-forwarding successfully,
+	// causing the web application to malfunction, so we have specified it explicitly here.
+	"forwardPorts": [7007],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "cd my-backstage-app && echo 'Wait for the `yarn install` command to finish' && yarn install",
+	"postCreateCommand": "cd my-backstage-app && echo 'Wait for the `yarn install` command to finish' && yarn install"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
