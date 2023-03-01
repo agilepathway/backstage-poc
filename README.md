@@ -5,7 +5,8 @@ Example [Backstage](https://backstage.io) app
 
 The recommended development environment is a [GitHub Codespace](https://github.com/features/codespaces),
 as this will configure everything for you in minimal time.  All you need to do is 
-[create a Codespace from this repo](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
+[create a Codespace from this repo](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository). When you create your
+Codespace, it's recommended to give it no less than 8GB of RAM, to avoid out of memory problems.
 
 ## Run the app
 
