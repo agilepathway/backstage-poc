@@ -1,2 +1,2 @@
 # backstage-poc
-Example Backstage app
+Example [Backstage](https://backstage.io) app
