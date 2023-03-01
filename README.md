@@ -14,6 +14,8 @@ Example [Backstage](https://backstage.io) app
 
 As per [the Backstage getting started guide](https://backstage.io/docs/getting-started/#run-the-backstage-app):
 
-- `cd backstage && yarn dev` (`cd` into the name you gave your app, `backstage` is the default)
+- `cd backstage && yarn dev` 
+
+  (`cd` into the name you gave your app, `backstage` is the default)
 
 - go to http://localhost:3000
