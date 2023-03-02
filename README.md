@@ -18,3 +18,5 @@ To run the app (as per [the Backstage getting started guide](https://backstage.i
 - `cd my-backstage-app && yarn dev`
 
 - go to http://localhost:3000
+  
+  NB the app may automatically open the app in the browser with 127.0.0.1 rather than localhost, but if it does then close that browser tab and use the above localhost URL instead (with 127.0.0.1 it cannot load the backend because of [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)).
