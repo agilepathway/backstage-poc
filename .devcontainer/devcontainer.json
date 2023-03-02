@@ -13,7 +13,7 @@
 	// This can be used to network with other containers or with the host.
 	// We use port 7007 for the Backstage backend app. This port was not always auto-forwarding successfully,
 	// causing the web application to malfunction, so we have specified it explicitly here.
-	"forwardPorts": [7007],
+	"forwardPorts": [7007,5432],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "cd my-backstage-app && echo 'Wait for the `yarn install` command to finish' && yarn install"
